@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin-left: 5px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    padding: 5px;
+    margin: auto;
+    background-image: url("https://www.bouvierkelly.com/wp-content/uploads/2016/11/Case-Study-Background-DanRiver-5.jpg");
+    background-size: cover;
+}
+
+#head {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(141, 245, 23);
+    font-style: italic;
+    font-family: cursive;
+}
+
+body {
+    background-image: -webkit-linear-gradient(40deg,rgb(198, 255, 105),rgb(123, 161, 250));
+    background-size: cover;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#search-container {
+    margin: 1em 0;
+    margin-left: 70%;
+}
+
+#search-container input {
+    background-color: rgb(219, 215, 172);
+    width: 220px;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+    border-radius: 20px;
+}
+
+#search-container input:focus {
+    border-bottom-color: #6759ff;
+}
+
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #6759ff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.button-value {
+    display: inline-block;
+    border: 2px solid #6759ff;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #1b191a;
+}
+
+.active {
+    background-color: #6759ff;
+    color: #ffffff;
+}
+
+#staffs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1em;
+    padding: 1em 0;
+}
+
+.card {
+    background-color: #ffffff;
+    max-width: 20em;
+    margin-top: 1em;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+    overflow: hidden;
+}
+
+.image-container {
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+    position: relative;
+    left: -7px;
+}
+#ask{
+    align-items: center;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    width: 20%;
+    background-color: rgb(134, 220, 204);
+    border-radius: 50px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 30px;;
+}
+.container {
+    padding-top: 1em;
+    color: #110f29;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container h5{
+    color: navy;
+    text-decoration: underline;
+}
+.container h5 {
+    font-weight: 500;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    img {
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    }
+
+    .card {
+        max-width: 10em;
+        margin-top: 1em;
+    }
+
+    #staffs {
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
+}
+.popup{
+width: 400px;
+background: #fff;
+border-radius : 6px;
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50% ) scale(0.1);
+text-align: center;
+padding: 0 30px 30px;
+color:#333;
+visibility: hidden;
+transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #49bed6;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>
+    CONTRIBUTE
+</title>
+<link rel = "icon" href = "scholar.png"
+    type = "image/x-icon">
+</head>
+<style>
+    body{
+        background-color: rgb(34, 136, 177);
+    }
+    #box1 {
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        text-decoration: double;
+        font-size: 30px;
+        height: 140px;
+        background-image: linear-gradient(skyblue,pink);
+        width: 80%;
+        margin-top: 60px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-color: black;
+        border-style: ridge;
+        border-width: 1px;
+
+
+    }
+
+    #box2 {
+        margin: auto;
+        padding: 20px;
+        font-size: 20px;
+        background-color: rgba(190, 235, 129, 0.786);
+        width: 80%;
+        height: 800px;
+        margin-top: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-color: black;
+        border-style: ridge;
+        border-width: 1px;
+    }
+    #gendiv{
+        height: 80px;
+        margin-top: 0;
+    }
+
+    #mb {
+        margin-left: 0px;
+        background-image: white;
+        background-color: white;
+        text-align: left;
+        padding: 10px;
+        height: 16px;
+        width: 110px;
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        left: 90px;
+        top: -30px;
+    }
+
+    #fb {
+        background-image: white;
+        background-color: white;
+        text-align: left;
+        padding: 10px;
+        height: 16px;
+        width: 110px;
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        left: 225px;
+        top: -68px;
+    }
+
+    #cb {
+        background-image: white;
+        background-color: white;
+        text-align: left;
+        padding: 10px;
+        height: 16px;
+        width: 110px;
+        align-self: center;
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        left: 360px;
+        top: -106px
+    }
+    #n1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+    }
+    #name,#ch{
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 20px;
+        width: 250px;
+        font-size: 26px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+        
+    }
+    p5{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+    }
+    .textarea{
+        height: 80px;
+        width: 250px;
+        font-size: 20px;
+    }
+    #email{
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 20px;
+        width: 350px;
+        font-size: 26px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    #pin{
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 20px;
+        width: 250px;
+        font-size: 26px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    #card1{
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 20px;
+        width: 250px;
+        font-size: 26px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    #type{
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 45px;
+        width: 280px;
+        font-size: 20px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    #reset{
+        padding: 10px;
+        margin-left: 20%;
+        display: inline-block;
+        border-radius: 20px;
+        background-color: skyblue;
+        border-style: solid;
+        border-width: 3px;
+        font-size: 24px;
+        line-height: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:black;
+        position: relative;
+        width: 120px;
+        cursor: pointer;
+        transition: 300ms;
+    }
+    #reset:after{
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        content: '';
+        box-sizing: content-box;
+        box-shadow: 0 0 0 3px #fff;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: 300ms;
+    }
+    #reset:hover{
+        background-color: palegreen;
+        color: blue;
+        font-size: 30px;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 6px;
+        
+    }
+    #reset:hover:after{
+        opacity: 1;
+        transform: scale(1.15);
+    }
+    #submit{
+        padding: 10px;
+        margin-left: 20%;
+        display: inline-block;
+        border-radius: 20px;
+        background-color: skyblue;
+        border-style: solid;
+        border-width: 3px;
+        font-size: 24px;
+        line-height: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:black;
+        position: relative;
+        width: 160px;
+        cursor: pointer;
+        transition: 300ms;
+
+    }
+    #submit:hover{
+        background-color: palegreen;
+        color: blue;
+        font-size: 30px;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 6px;
+
+    }
+    #file{
+       margin-left: 130px;
+       font-size: 20px;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    #card{
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 20px;
+        width: 400px;
+        font-size: 26px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+
+    }
+    #cvv{
+        
+        border-radius: 5px;
+        border-color: rgb(15, 13, 13);
+        border-style: ridge;
+        border-width: 1px;
+        height: 20px;
+        width: 80px;
+        font-size: 26px;
+        padding: 10px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    #image{
+
+        margin-top: -480px;
+        width: 250px;
+        position: relative;
+        left: 280px;
+        top: -200px;
+        height: 200px;
+    }    
+    p6{
+        text-align: center;
+        margin-left: 220px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+    
+
+    }
+    #img{
+        width: 270px;
+        margin-left: 200px;
+        margin-top: -100px;
+        height: 400px;
+    }
+    #imo{
+        width: 300px;
+        margin-left: 500px;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+        color: rgba(32, 137, 44, 0.723);
+    }
+    .popup{
+        width: 400px;
+        background: #fff;
+        border-radius : 6px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%,-50% ) scale(0.1);
+        text-align: center;
+        padding: 0 30px 30px;
+        color:#333;
+        visibility: hidden;
+        transition: transform 0.4s,top 0.4s;
+        }
+        .open-popup{
+          visibility: visible;
+          top: 88%;
+          transform: translate(-50%,-50%) scale(1);
+        }
+        
+        .popup img{
+          width: 100px;
+          margin-top: -50px;
+          border-radius: 50%;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          background-color: skyblue;
+        
+        }
+        .popup h2{
+          font-size: 38px;
+          font-weight: 500;
+          margin: 30px 0 10px;
+        }
+        .popup button{
+          width: 100%;
+          margin-top: 50px;
+          padding: 10px 0;
+          background: #6fd649;
+          color: #fff;
+          border: 0;
+          outline: none;
+          font-size: 18px;
+          border-radius: 4px;
+          cursor: pointer;
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+<body>
+    <div>
+        <div id="box1">
+            <p><u>Contribution Form</u></p>
+        </div>
+        <div id="box2">
+            <form action="" >
+                <label for="name" id="n1" value="">NAME: </label>
+                <input type="text" id="name" value="" placeholder="Name" required>
+                
+                <br><div id="gendiv">
+                <br><p5>Gender:</p5>
+                <div id="mb">
+                    <input type="radio" name="Gender" value="Male" id="Gender-m">
+                    <label for="Gender-m" class="gen" id="newgen">Male</label>
+                </div>
+                <div id="fb">
+                    <input type="radio" name="Gender" value="Female" id="Gender-f">
+                    <label for="Gender-f" class="gen">Female</label>
+                </div>
+                <div id="cb">
+                    <input type="radio" name="Gender" value="custom" id="Gender-c">
+                    <label for="Gender-c" class="gen">Custom</label>
+                </div><br></div>
+                <p5 id="ad">CONTRIBUTING For:</p5>
+                <select name="type" id="type">
+                    <option selected>----Select Exam----</option>
+                    <option>JEE</option>
+                    <option>NEET</option>
+                    <option>GATE</option>
+                </select><br><br>
+                <p5>Email:</p5>
+                <input type="email" id="email" value="" placeholder="Enter Email" required>
+                <br>
+                <hr style: color="black" size="0.1px">
+                <p5>SUBJECT :</p5>
+                <select name="type" id="type">
+                    <option selected>----Select Domain---</option>
+                    <option>MATHS</option>
+                    <option>BIOLOGY</option>
+                    <option>PHYSICS</option>
+                    <option>CHEMISTRY</option>
+                    <option>GATE</option>
+                </select><br><br>
+                <label for="ch" id="n1" value="">Chapter: </label>
+                <input type="text" id="ch" value="" placeholder="Chapter name" required>
+                <br><br>
+                <p5>Source of contribution:</p5>
+                <textarea cols="40" rows="4" placeholder="Link of site or video"></textarea>
+                <br><br>
+                <p5></p5>
+                <input type="file" id="file">
+                <br><br><input type="reset" name="reset" id="reset" value="Reset">
+                <input type="submit" name="submit" id="submit" onclick="openPopup()" value="SUBMIT">
+                <div class="popup" id="popup">
+                    <img src="thumb.png">
+                    <h2>THANK YOU</h2>
+                    <p>For Contributing &#128516;</p>
+                    <a href="jee.html"><button type="button" onclick="closePopup()">OK</button></a>
+                </div> 
+
+
+            </form>
+
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        let popup1 = document.getElementById("popup1");
+        function openPopup(){
+          popup.classList.add("open-popup");
+        }
+        function closePopup(){
+          popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+
+</html>

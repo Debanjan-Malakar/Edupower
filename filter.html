@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helping hands</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel = "icon" href = "scholar.png"
+    type = "image/x-icon">
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Edupower</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jee.html">Resource</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-items">
+            <a class="nav-link" href="filter.html">Ask us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <header>
+        <h1 id="head">HELPING HANDS</h1>
+        <hr>
+    </header>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterstaff('all')">All</button>
+        <button class="button-value" onclick="filterstaff('MATHS')">
+          MATHS
+        </button>
+        <button class="button-value" onclick="filterstaff('BIOLOGY')">
+          BIOLOGY
+        </button>
+        <button class="button-value" onclick="filterstaff('PHYSICS')">
+          PHYSICS
+        </button>
+        <button class="button-value" onclick="filterstaff('CHEMISTRY')">
+          CHEMISTRY
+        </button>
+        <button class="button-value" onclick="filterstaff('GATE')">
+            GATE
+          </button>
+      </div>
+      <div id="staffs"></div>
+      <a href="ask.html"><button id="ask">DOUBT??</button></a>
+    </div>
+    <!-- Script -->
+    <script src="script1.js"></script>
+  </body>
+</html>
