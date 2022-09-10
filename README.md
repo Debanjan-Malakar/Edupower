@@ -3,7 +3,7 @@ This site is created to resolve the problem of getting resouces for the exams li
 
 
 -----Team Members------
-Aryan Singh
-Hrittik Singh
-Ahona Ghosal
-Himanshu Sharma
+Aryan Singh/n
+Hrittik Singh/n
+Ahona Ghosal/n
+Himanshu Sharma/n
